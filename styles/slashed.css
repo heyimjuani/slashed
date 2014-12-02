@@ -1,0 +1,33 @@
+/* this matters */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "League Gothic";
+  font-weight: normal;
+  text-transform: uppercase; }
+
+span {
+  display: block;
+  line-height: 0.8em; }
+  span:before {
+    content: attr(data-text);
+    display: block;
+    overflow: hidden;
+    height: 0.4em; }
+
+em {
+  font-style: normal;
+  display: block;
+  overflow: hidden;
+  margin-right: -6px;
+  line-height: 0px;
+  height: 0.4em; }
+
+/* this, not so much */
+h1 {
+  font-size: 6em;
+  margin-top: 0; }
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 1.2em; }
+  h2 em {
+    margin-right: -2px; }
