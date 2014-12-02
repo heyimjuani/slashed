@@ -1,4 +1,4 @@
-!(this is what it looks like)[https://cloudup.com/cocmObUXXDM+]
+![this is what it looks like](https://cloudup.com/cocmObUXXDM+)
 
 Try it on http://heyimjuani.github.io/slashed
 
